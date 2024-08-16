@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "33986993",
+      "name": "举报",
+      "font_class": "jubao",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "33986995",
+      "name": "安全保障",
+      "font_class": "anquanbaozhang",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    }
+  ]
+}

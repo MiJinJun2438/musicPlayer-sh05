@@ -1,0 +1,77 @@
+<!-- 文档声明：告诉浏览器当前网页的版本 -->
+<!DOCTYPE html>
+<!-- 语言设置 作用：让浏览器显示对应的翻译提示，有利于搜索引擎优化 -->
+<html lang="en">
+<head>
+    <!-- 字符集：UTF-8（字符集就是计算机对数据进行编码、解码的字符 -->
+    <meta charset="UTF-8">
+    <!-- 针对移动端的配置 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 文档标题 -->
+    <title>音乐播放器</title>
+    <!-- 将图标的css文件引入 -->
+    <link rel="stylesheet" href="http://at.alicdn.com/t/c/font_4652264_hzla49lul1f.css">
+    <!-- 引入css样式表 -->
+    <link rel="stylesheet" href="./CSS/musci.css">
+</head>
+<body>
+    <!-- 音乐播放器 -->
+    <div class="player-total">
+        <!-- 歌曲信息 -->
+         <div class="player-info">
+            <div class="info">
+                <div class="name">思念是一种病</div>
+                <div class="singer-album">张震岳、蔡健雅-OK</div>
+                <!-- 音乐播放进度条 -->
+                <div class="music_progress">
+                    <div class="music_progress_top">
+                        <!-- 当前时间 -->
+                        <span class="current-time">00:00</span>
+                        <!-- 总时间 -->
+                        <span class="total-time">04:19</span>
+                    </div>
+                    <div class="music_progress_bar">
+                        <div class="music_progress_line"></div>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <!-- 音乐控制器 -->
+          <div class="player-control">
+            <!-- 歌曲封面 -->
+             <div class="cover">
+                <img src="./source/思念是一种病.png" alt="封面">
+             </div>
+             <!-- 歌曲控制按钮 -->
+              <div class="control">
+                <!-- 加载按钮图标 -->
+                <i id="prevBtn" class="iconfont icon-shangyishoushangyige"></i>
+                <i id="playBtn" class="iconfont icon-yunhang"></i>
+                <i id="nextBtn" class="iconfont icon-xiayigexiayishou"></i>
+                <i id="openModal" class="iconfont icon-mulu"></i>
+              </div>
+          </div>
+    </div>
+     <!-- 页面背景 -->
+    <div class="page-bg"></div>
+     <!-- 模态框 -->
+    <div class="modal">
+        <div class="modal-box">
+            <div class="modal-box-top">
+                <div class="modal-title">音乐列表</div>
+                <div class="modal-close">
+                    <i class="iconfont icon-cuowu "></i>
+                </div>
+            </div>
+            <div class="modal-wrapper">
+                <ul class="music-list"> 
+                </ul>
+            </div>
+        </div>
+    </div>
+    <audio src=""></audio>
+    
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="/js/music.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+[
+    {
+    "name": "思念是一种病",
+    "audio_url": "../source/思念是一种病.flac",
+    "singer": "张震岳、蔡健雅",
+    "album": "OK",
+    "cover": "./source/思念是一种病.png",
+    "time": "04:18"
+  },
+  {
+    "name": "Kiss Kiss Kiss",
+    "audio_url": "./source/Kiss Kiss Kiss.mp3",
+    "singer": "BENI",
+    "album": "best all singer",
+    "cover": "../source/Kiss Kiss Kiss.png",
+    "time": "04:18"
+  }
+
+]
